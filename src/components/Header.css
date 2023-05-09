@@ -1,0 +1,55 @@
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header .logo {
+    font-size: 24px;
+  }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    header .logo {
+      font-size: 20px;
+    }
+    
+    header nav ul {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #555;
+      padding: 10px 0;
+    }
+    
+    header nav ul.show {
+      display: flex;
+    }
+    
+    header nav ul li {
+      margin: 10px;
+    }
+  }
+  

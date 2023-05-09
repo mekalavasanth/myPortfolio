@@ -1,0 +1,45 @@
+.home {
+    background-color: #f9f9f9;
+    min-height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 600px;
+  }
+  
+  .home .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .home .btn:hover {
+    background-color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .home h1 {
+      font-size: 28px;
+    }
+    
+    .home p {
+      font-size: 16px;
+    }
+  }
+  
